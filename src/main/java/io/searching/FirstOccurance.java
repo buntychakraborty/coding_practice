@@ -10,7 +10,7 @@ public class FirstOccurance {
         System.out.println("The first Occurance of an element "+element+" is at position :"+ firstOccuranceOfAnElement(arr,size,element));
         System.out.println("The first Occurance of an element "+element2+" is at position :"+ firstOccuranceOfAnElement(arr,size,element2));
     }
-    private static int firstOccuranceOfAnElement(int[] arr,int size,int element){
+    public static int firstOccuranceOfAnElement(int[] arr,int size,int element){
         int low=0;
         int end=size-1;
         while (low<=end){

@@ -19,7 +19,7 @@ public class BinarySearchRecursive {
 
     }
 
-    private static int binarySearch(int[] arr, int low,int end,int size,int element) {
+    public static int binarySearch(int[] arr, int low,int end,int size,int element) {
 
         if (low <= end) {
             int mid = (low + end) / 2;

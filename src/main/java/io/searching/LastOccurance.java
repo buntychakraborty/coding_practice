@@ -14,7 +14,7 @@ public class LastOccurance {
         System.out.println("The last Occurance of an element "+element3+" is at position :"+ lastOccuranceOfAnElement(arr3,arr3.length,element3));
     }
 
-    private static int lastOccuranceOfAnElement(int[] arr, int size, int element) {
+    public static int lastOccuranceOfAnElement(int[] arr, int size, int element) {
         int low=0;
         int end=size-1;
         while(low<=end){
